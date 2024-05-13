@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        padding: 50px;
+
+        
+      }
+      body {
+        background-color: black;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      .container div {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        flex-basis: 20%;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Image Gallery</h1>
+      <div class="container">
+        <div>
+          <img src="https://source.unsplash.com/random/200x200/?plant" />
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/random/200x200/?trees" />
+        </div> 
+        <div>
+            <img src="https://source.unsplash.com/random/200x200/?animal" />
+          </div>
+          <div>
+            <img src="https://source.unsplash.com/random/200x200/?nature" />
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/random/200x200/?river" />
+          </div>
+          <div>
+            <img src="https://source.unsplash.com/random/200x200/?art" />
+          </div>
+          <div>
+            <img src="https://source.unsplash.com/random/200x200/?cat" />
+          </div>
+          <div>
+            <img src="https://source.unsplash.com/random/200x200/?rain" />
+          </div>
+          <div>
+            <img src="https://source.unsplash.com/random/200x200/?books" />
+          </div>
+          <div>
+            <img src="https://source.unsplash.com/random/200x200/?scenary" />
+          </div>
+          <div>
+            <img src="https://source.unsplash.com/random/200x200/?sky" />
+          </div>
+          <div>
+            <img src="https://source.unsplash.com/random/200x200/?music" />
+          </div>
+       
+    </div>
+  </body>
+</html>
